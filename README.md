@@ -1,12 +1,11 @@
-# Deep Learning - Detection of Persuasion Techniques in Texts and Images
+# Deep Learning - Detection of Persuasion Techniques in Texts
 
 ## Project Description
-This project aims to detect persuasion techniques in memes, focusing on both textual and visual content. The main goal is to identify if a meme attempts to persuade viewers using propagandist claims, a common tactic in social media campaigns. The project is inspired by the SemEval-2021 Task 6 challenge and leverages state-of-the-art transformer models.
+This project aims to detect persuasion techniques in memes, focusing on both textual. The main goal is to identify if a meme attempts to persuade viewers using propagandist claims, a common tactic in social media campaigns. The project is inspired by the SemEval-2021 Task 6 challenge and leverages state-of-the-art transformer models.
 
 ## Tasks/Subtasks
 1. **Textual Multilabel Classification:** Identify persuasion techniques in meme text.
 2. **Textual Span Detection:** Identify techniques and their corresponding text spans.
-3. **Multimodal Classification:** Detect techniques using both text and image content.
 
 ## Datasets
 The project uses several datasets for training, validation, and testing. The main data files are:
@@ -65,7 +64,7 @@ The following persuasion techniques are annotated in the dataset (not exhaustive
 - Evaluation metrics: F1-micro and F1-macro scores.
 
 ## Project Structure
-- Jupyter Notebook(s) for data processing, model training, and evaluation.
+- Google Collab for data processing, model training, and evaluation.
 - Data loading and preprocessing scripts.
 - Model definition and training routines.
 - Visualization utilities for confusion matrices and class distributions.
